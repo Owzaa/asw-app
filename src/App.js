@@ -1,28 +1,30 @@
 import './App.css';
 
 function App() {
+
+
+
+
   return (
     <div className="App">
     
-    
-      <header className="App-header">
-    
+
+    {/* Navigation Bar  */}
+      <header className="App-header">    
       </header>
 
-    
-      <body className="app-body">
-    
-    
+
+    {/* Main Content */}
+      <body className="App-body">    
       </body>
     
-    
-    
-      <footer className="app-footer">
 
+    {/* Footer Content */}
+      <footer className="App-footer">
       </footer>
     
     
-    </div>
+    </div> 
   );
 }
 
