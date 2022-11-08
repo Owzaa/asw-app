@@ -1,10 +1,14 @@
 import React from 'react'
-
+import cA
 function index() {
   return (
-    <div>
-      
+  <div className="Container">
+    <div className="carouselContainer">
+    <Carousel/>
     </div>
+
+      
+  </div>
   )
 }
 
