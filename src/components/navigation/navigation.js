@@ -15,10 +15,11 @@ function navigation() {
     <Container >
       <Navbar.Brand href="/">
       <Image id="logo" className='img-fluid circle-rounded   justify-center pull-left' src='images/logo-icon.jpg' width={100} height="auto" alt='tdm logo' />
+       <div className="text-muted">All <b>Steel</b> Works (Pty) Ltd</div>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="responsive-navbar-nav">
-      <Nav className="me-2 my-2  flex-lg-shrink-1 text-capitalize text-center pull-right">
+      <Nav className="me-2 my-2  flex-lg-shrink-1 text-capitalize">
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/about">About-us</Nav.Link>
       <Nav.Link href="/portfolio">Gallery</Nav.Link>
