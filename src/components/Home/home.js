@@ -67,19 +67,17 @@ function HomeView() {
                             <Card.ImgOverlay className='container-fluid justify-center t-0 pt-1 bg-dark bg-opacity-50 text-xlg border-radius-2'>
                                 <Card.Title >
                                     <h3 className="text-center text-md justify-center pt-0 p-2 mt-3 mb-5 ">
-                                        <b> STEEL WORK SPECIALISTS IN AFRICA
-                                            <br />AND <br />
-                                            THE SUB-SAHARAN AREA....
-                                        </b>
+                                    <b> STEEL WORK SPECIALISTS IN AFRICA
+                                    <br />AND <br />
+                                    THE SUB-SAHARAN AREA....
+                                    </b>
                                     </h3>
                                     <Button xs href='/contact' className='btn-danger text-center pt-1  btn-sm text-white text-center'>
-                                        <h3 className="text-white p-3 mt-0 pb-0">
-                                            GET YOUR QUOTATION
-                                        </h3>
+                                    <h3 className="text-white p-3 mt-0 pb-0">
+                                    GET YOUR QUOTATION
+                                    </h3>
                                     </Button>
                                 </Card.Title>
-
-
 
                             </Card.ImgOverlay>
                         </Card>
