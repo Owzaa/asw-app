@@ -1,26 +1,11 @@
+/* ./src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.btn{
+  @apply py-2 px-6 rounded;
 }
-p{
-  font-size: 16px;
-  color: #555;
-}
-h2{
-  text-transform: uppercase;
-  
-  justify-content: center;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-blue {
+  @apply  bg-blue-500 text-blue-100;
 }
