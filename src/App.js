@@ -28,23 +28,19 @@ let element = useRoutes ([
 
 return (
 
+<div className='container-flex justify-content-center'>
 <React.Fragment>    
    
 {/* Navigation Bar  */}
 
-<header className="header"> 
-<Navigation  className="container-wrap"/>
+<header className="container-fluid header"> 
+<Navigation  className="container-fluid justify-content-center"/>
 {element}
 </header>
 
 
 
-{/* Main Content */}
-{/* <div className="container">
-<Home/>
-</div>
-*/}
-
+<hr/>
 {/* Footer Content */}     
 <footer className="App-footer">
 <Footer/>
@@ -52,7 +48,7 @@ return (
 
 </React.Fragment>     
 
-
+</div>
 );
 }
 

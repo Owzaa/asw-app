@@ -9,14 +9,14 @@ function CarouselExample() {
       
 return (
 <>
-<Carousel variant="light" >
+<Carousel variant="light" fade={.5} >
 
   <Carousel.Item>
     <img
     className="d-block w-100"
     src="../images/carousel/C1.png"
     alt="First slide"
-    height={400}
+    
     />
  
   </Carousel.Item>
@@ -27,7 +27,7 @@ return (
   className="d-block w-100"
   src="../images/carousel/C2.png"
   alt="First slide"
-          height={400}
+  height={400}
   />
   </Carousel.Item>
 

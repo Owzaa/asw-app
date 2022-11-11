@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-footer{
+  background-color: rgba(10, 10, 10, 0.934);
+  color: #fff;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
