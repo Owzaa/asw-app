@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/esm/Container';
 function HomeView() {
 
     return (
-        <>
+        
         <Container flex className="container-wrapper">
             <div className='container-fluid'>
                 <CarouselExample />
@@ -86,7 +86,7 @@ function HomeView() {
                 </div>
             </section>
         </Container>
-        </>
+    
     )
 }
 

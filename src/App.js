@@ -8,7 +8,7 @@ import Portfolio from './components/Portfolio/portfolio';
 import Navigation from './components/Navigation/navigation';
 import Service from './components/Services/services';
 import Footer from './components/Footer/footer';
-import Home from './components/Home/home'
+import HomeView from './components/Home/home'
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
 let element = useRoutes ([
 
-{ path: "/", element:<Home/>},
+{ path: "/", element:<HomeView/>},
 { path: "/about", element: <About/> },
 { path: "/contact", element: <Contact/> },
 { path: "/portfolio", element: <Portfolio/> },
@@ -33,14 +33,16 @@ return (
    
 {/* Navigation Bar  */}
 
-<header className="container-fluid header"> 
+<header className="container-fluid"> 
 <Navigation  className="container-fluid justify-content-center"/>
 {element}
 </header>
 
 
+<HomeView/>
 
 <hr/>
+
 {/* Footer Content */}     
 <footer className="App-footer">
 <Footer/>

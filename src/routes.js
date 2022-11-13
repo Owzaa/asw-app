@@ -5,7 +5,7 @@ import Contact from './components/Contact/contact';
 import Portfolio from './components/Portfolio/portfolio';
 import Service from './components/Services/services';
 import Footer from './components/Footer/footer';
-import Home from './components/Home/home'
+import HomeView from './components/Home/home'
 
 
 function routes() {
@@ -13,7 +13,7 @@ function routes() {
 return (
 
 <Routes>    
-  <Route path="/" element={<Home/>}/>
+  <Route path="/" element={<HomeView/>}/>
   <Route path="/about" element={<About/>} />
   <Route path="/contact" element={<Contact/>} />
   <Route path="/portfolio" element={<Portfolio/>} />
